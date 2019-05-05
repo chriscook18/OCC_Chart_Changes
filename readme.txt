@@ -5,7 +5,9 @@ and re-entries and format them into a format compatiable for BB forum posts.
 *** USE ***
 This is Python-based. You need to be able to run Python and have the libraries lxml and requests installed.
 
-Change the URL on line 6 and it will scrape that page for the data. It will then output the code that can be pasted into the forum.
+This currently supports 3 different pages to be scrapped. Naturally adding a new site is as simple as either a) adding a new entry to the webLink dictionary or changing an existing one. 
+
+After scrapping it will then output the code that can be pasted into the forum.
 
 *** OUTPUT FORMAT ***
 An example of the output is http://forums.stevehoffman.tv/threads/uk-albums-chart-analysis-thread.614213/page-12#post-19978889
